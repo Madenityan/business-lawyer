@@ -124,14 +124,15 @@ table {
 }
 
 .button-circle {
-   display: inline-block;
+   display: block;
    width: 50px;
    height: 50px;
    position: relative;
    bottom: 360px;
    background: #2ecc71;
    border-radius: 50%;
-   margin-left: 555px;
+   margin-left: auto;
+   margin-right: auto
 }
 
   .button-circle:hover {
@@ -245,6 +246,10 @@ table {
 	border: none;
 }
 
+.free-div {
+	margin-bottom: 36px;
+}
+
 /*SECTION SERVICES END*/
 
 
@@ -270,7 +275,7 @@ table {
 /*SECTION CONTACT*/
 
 .contact {
-	min-height: 650px;
+	min-height: 736px;
 	background: #ffffff;
 	margin-bottom: 60px;
 }
@@ -281,8 +286,8 @@ table {
 	font-weight: bold;
 	color: #2c3e50;
 	text-align: center;
-	padding-top: 68px;
-	padding-bottom: 98px;
+	padding-top: 100px;
+	padding-bottom: 160px;
 }
 
 /* === Remove input autofocus webkit === */
@@ -319,6 +324,9 @@ table {
 	margin:0;
 	display: inline;
 	font-size: 24px;
+	font-family: 'Droid Serif', serif;
+	font-weight: bold;
+	color: #2c3e50;
 }
 .required_notification {
 	color:#d45252; 
@@ -482,10 +490,14 @@ button.submit:active {
 .adress-contact  dd {
 	overflow: visible;
 }
+
+a:focus { 
+	outline: none;
+}
 /*END SECTION CONTACT*/
 
 .footer {
-	background: #2c3e50;
+	background: #2980b9;
 	min-height: 50px;
 }
 
