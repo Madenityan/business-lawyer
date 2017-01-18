@@ -45,22 +45,42 @@ table {
 
 /*HEADER*/
 
+.containar {
+	max-width: 1150px;
+	margin: 0 auto;
+}
+
+.containar *{
+	overflow: hidden;
+}
+
 .header {
 	position: fixed;
 	z-index: 1;
 	width: 100%;
-	background-color: rgba(52,73,94,0.5);
+	background-color: rgba(52,73,94,0.7);
 }
 
 .header-logo {
 	float: left;
-	padding-top: 6px;
 	padding-left: 50px;
+}
+.header-logo h2 {
+	position: relative;
+	color: #ffffff;
+	font-size: 20px;
+	bottom: 12px;
+	left: 49px;
+
+}
+
+.header-logo a {
+	text-decoration: none;
 }
 
 .logo {
 	width: 274px;
-    height: 102px;
+    height: 97px;
 }
 
 .list-menu {
@@ -88,68 +108,22 @@ table {
 /*END HEADER*/
 
 /*HERO_SECTION*/
+
 .hero-section {
-	background-image: url("../image/architecture.jpg");
-	background-position:  center center ;
-	height: 956px;
-	background-repeat: no-repeat;
+
 }
 
-.transparency {
-	background-color: rgba(52,73,94,0.5);
-	position: relative;
-	top: 0;
-	z-index: 0;
-	min-height: 956px;
-	width: 100%;
+.carousel-inner {
+	max-height: 700px;
 }
 
-.containar *{
-	overflow: hidden;
+.item img{
+	height: 760px;
+    
 }
 
-.containar {
-	max-width: 1150px;
-	margin: 0 auto;
-}
 
- .big-text {
- 	position: relative;
-	font-size: 58px;
-	font-weight: bold;
-	text-align: center;
-	color: #ffffff;
-	bottom: 612px;
-	line-height: 100px;
-}
-
-.button-circle {
-   display: block;
-   width: 50px;
-   height: 50px;
-   position: relative;
-   bottom: 360px;
-   background: #2ecc71;
-   border-radius: 50%;
-   margin-left: auto;
-   margin-right: auto
-}
-
-  .button-circle:hover {
-	 text-decoration:none;
-}
-
-.button-arrow {
-	font-family: 'Open Sans', arial;
-	display: block;
-	font-size: 20px;
-	margin-left: 19px;
-	margin-top: 16px;
-	font-weight: bold;
-	color: #ffffff;
-	line-height: 1;
-}
-/*HERO_SECTION END*/
+/*HERO_SECTION END*
 
 /*ABOUT SECTION*/
 .about{
@@ -377,9 +351,9 @@ table {
 	}
 
 /* === HTML5 validation styles === */	
-.contact_form input:required, .contact_form textarea:required {
+/*.contact_form input:required, .contact_form textarea:required {
 	background: #fff url(images/red_asterisk.png) no-repeat 98% center;
-}
+}*/
 .contact_form input:required:valid, .contact_form textarea:required:valid {
 	background: #fff url(images/valid.png) no-repeat 98% center;
 	box-shadow: 0 0 5px #5cd053;
