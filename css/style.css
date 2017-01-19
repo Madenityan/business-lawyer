@@ -71,7 +71,6 @@ table {
 	font-size: 20px;
 	bottom: 12px;
 	left: 49px;
-
 }
 
 .header-logo a {
@@ -109,26 +108,51 @@ table {
 
 /*HERO_SECTION*/
 
-.hero-section {
-
-}
-
 .carousel-inner {
 	max-height: 700px;
 }
 
-.item img{
-	height: 760px;
-    
+.carousel-inner img {
+	width: 100%;
 }
 
+.carousel-caption h1 {
+	font-family: 'Droid Serif', serif;
+	font-size: 42px;
+	color: #375778;
+	margin-bottom: 93px;
+	margin-left: 70px;
+	text-shadow:2px 2px 2px #4c4754;
+}
 
-/*HERO_SECTION END*
+.carousel-caption p {
+	font-family: 'Droid Serif', serif;
+	font-size: 32px;
+	color: #375778;
+	margin-bottom: 240px;
+	margin-right: 60px;
+	}
+.carousel-caption ul {
+	font-family: 'Droid Serif', serif;
+	list-style:  square outside;
+	color: #ffffff;
+	font-size: 32px; 
+	margin-bottom: 44px;
+}
+
+.carousel-caption ul li {
+	text-align: left;
+	line-height: 130%;
+	text-shadow: 3px 3px 3px #4c4754;
+}
+
+/*HERO_SECTION END*/
 
 /*ABOUT SECTION*/
+
 .about{
 	background-color: #375778;
-	min-height: 900px;
+	min-height: 700px;
 }
 .list-about {
 	text-align: center;
@@ -149,7 +173,7 @@ table {
 	font-size: 24px;
 	line-height: 30px;
 	color: #ffffff;
-	margin-bottom: 150px;
+	margin-bottom: 92px;
 	text-align: center;
 }
 
@@ -157,26 +181,32 @@ table {
 	display: inline-block;
 	width: 225px;
 	text-align: center;
-	margin: 30px;
+	margin: 10px;
 }
 
 .list-about h2 {
 	font-family: 'Droid Sans', sans-serif;
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: bold;
 	color: #ffffff;
-	margin-top: 30px;
-	margin-bottom: 30px;
-	line-height: 32px;
+	margin-top: 16px;
+	line-height: 26px;
 	letter-spacing: 1px;
 }
+
+.wrap-img img {
+	height: 90px;
+	width: 90px;
+}
+
+
 /*ABOUT SECTION END*/
 
 /*SECTION SERVICES*/
 
 .services {
 	background: #ffffff;
-	min-height: 1076px;
+	min-height: 700px;
 }
 .services h3 {
 	font-family: 'Droid Sans', sans-serif;
@@ -185,15 +215,15 @@ table {
 	color: #2c3e50;
 	text-align: center;
 	padding-top: 74px;
-	padding-bottom: 74px;
+	padding-bottom: 100px;
 }
 
 .image-services {
 	float: left;
-	height: 220px;
-	width: 228px;
-	margin-left: 30px;
-    margin-top: 30px;
+	height: 78px;
+	width: 142px;
+	margin-left: 26px;
+    margin-top: 26px;
     border: 1px solid #375778;
     padding: 10px;
     box-sizing: content-box;
@@ -202,8 +232,8 @@ table {
 
 .active-icon-services {
 	position: relative;
-	bottom: 33px;
-	left: 64px;
+	/*bottom: 33px;*/
+	left: 27px;
 	color: #1b1d92;
 }
 
@@ -230,7 +260,7 @@ table {
 /*SECTION PRICE*/
 
 .price {
-	min-height: 900px;
+	min-height: 700px;
 	background: #2980b9;
 }
 
@@ -249,7 +279,7 @@ table {
 /*SECTION CONTACT*/
 
 .contact {
-	min-height: 736px;
+	min-height: 700px;
 	background: #ffffff;
 	margin-bottom: 60px;
 }
@@ -260,8 +290,8 @@ table {
 	font-weight: bold;
 	color: #2c3e50;
 	text-align: center;
-	padding-top: 100px;
-	padding-bottom: 160px;
+	padding-top: 90px;
+	padding-bottom: 140px;
 }
 
 /* === Remove input autofocus webkit === */
